@@ -1,0 +1,6 @@
+{
+  "artisans": [
+    { "artisan_id": 1, "name": "Kwame", "skill": "Plumber", "location": "Accra", "years_of_experience": 5, "rating": 4.5 }
+  ],
+  "users": []
+}
