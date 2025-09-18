@@ -1,6 +1,7 @@
 {
   "artisans": [
-    { "artisan_id": 1, "name": "Kwame", "skill": "Plumber", "location": "Accra", "years_of_experience": 5, "rating": 4.5 }
-  ],
-  "users": []
+    { "id": 1, "name": "John Doe", "skill": "Plumber", "location": "Accra" },
+    { "id": 2, "name": "Jane Smith", "skill": "Electrician", "location": "Kumasi" },
+    { "id": 3, "name": "Ali Baba", "skill": "Carpenter", "location": "Tamale" }
+  ]
 }
