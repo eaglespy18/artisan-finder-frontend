@@ -1,7 +1,76 @@
 {
   "artisans": [
-    { "id": 1, "name": "John Doe", "skill": "Plumber", "location": "Accra" },
-    { "id": 2, "name": "Jane Smith", "skill": "Electrician", "location": "Kumasi" },
-    { "id": 3, "name": "Ali Baba", "skill": "Carpenter", "location": "Tamale" }
+    {
+      "id": 1,
+      "name": "Samuel Ochieng",
+      "skill": "Carpenter",
+      "location": "Nairobi, Kenya",
+      "phone": "+254 712 345 678",
+      "experience": "8 years",
+      "description": "Experienced carpenter specializing in custom furniture, kitchen cabinets, and home renovations. Known for quality craftsmanship and timely delivery.",
+      "rating": 4.8,
+      "completedJobs": 156,
+      "avatar": "/placeholder.svg"
+    },
+    {
+      "id": 2,
+      "name": "Grace Wanjiku",
+      "skill": "Tailor",
+      "location": "Kisumu, Kenya",
+      "phone": "+254 723 456 789",
+      "experience": "12 years",
+      "description": "Professional tailor offering custom clothing, alterations, and traditional wear. Specializes in both modern and traditional African designs.",
+      "rating": 4.9,
+      "completedJobs": 243,
+      "avatar": "/placeholder.svg"
+    },
+    {
+      "id": 3,
+      "name": "John Mwangi",
+      "skill": "Plumber",
+      "location": "Mombasa, Kenya",
+      "phone": "+254 734 567 890",
+      "experience": "6 years",
+      "description": "Reliable plumber providing installation, repair, and maintenance services for residential and commercial properties. Available 24/7 for emergencies.",
+      "rating": 4.7,
+      "completedJobs": 98,
+      "avatar": "/placeholder.svg"
+    },
+    {
+      "id": 4,
+      "name": "Mary Akinyi",
+      "skill": "Mason",
+      "location": "Eldoret, Kenya",
+      "phone": "+254 745 678 901",
+      "experience": "10 years",
+      "description": "Skilled mason with expertise in construction, tile work, and decorative stonework. Has worked on numerous residential and commercial projects.",
+      "rating": 4.6,
+      "completedJobs": 134,
+      "avatar": "/placeholder.svg"
+    },
+    {
+      "id": 5,
+      "name": "Peter Kimani",
+      "skill": "Mechanic",
+      "location": "Nakuru, Kenya",
+      "phone": "+254 756 789 012",
+      "experience": "15 years",
+      "description": "Experienced auto mechanic specializing in car repairs, maintenance, and diagnostics. Works with all vehicle makes and models.",
+      "rating": 4.8,
+      "completedJobs": 287,
+      "avatar": "/placeholder.svg"
+    },
+    {
+      "id": 6,
+      "name": "Ruth Nyong'o",
+      "skill": "Electrician",
+      "location": "Nairobi, Kenya",
+      "phone": "+254 767 890 123",
+      "experience": "7 years",
+      "description": "Certified electrician providing electrical installation, repair, and maintenance services. Experienced in both residential and commercial electrical work.",
+      "rating": 4.7,
+      "completedJobs": 176,
+      "avatar": "/placeholder.svg"
+    }
   ]
 }
