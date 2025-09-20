@@ -1,9 +1,10 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
 import SearchBar from "@/components/search/SearchBar";
 import ArtisanCard from "@/components/artisan/ArtisanCard";
 import { Button } from "@/components/ui/button";
 import { Loader2 } from "lucide-react";
+import api from "@/lib/api";
 
 interface Artisan {
   id: number;
@@ -17,12 +18,12 @@ interface Artisan {
   avatar?: string;
 }
 
-const Search = () => {
+const Search: React.FC = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const [artisans, setArtisans] = useState<Artisan[]>([]);
   const [filteredArtisans, setFilteredArtisans] = useState<Artisan[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState("");
+  const [loading, setLoading] = useState<boolean>(true);
+  const [error, setError] = useState<string>("");
 
   // Get initial search params
   const initialSkill = searchParams.get("skill") || "";
@@ -30,31 +31,29 @@ const Search = () => {
 
   useEffect(() => {
     fetchArtisans();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
     filterArtisans(initialSkill, initialLocation);
+    // We intentionally watch artisans + params so filtering runs after fetch
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [artisans, initialSkill, initialLocation]);
 
-  const fetchArtisans = async () => {
-    try {
-      setLoading(true);
-      const response = await fetch("http://localhost:5000/artisans");
-      if (!response.ok) {
-        throw new Error("Failed to fetch artisans");
-      }
-      const data = await response.json();
-      setArtisans(data);
-    } catch (err) {
-      setError("Failed to load artisans. Please try again later.");
-      console.error("Error fetching artisans:", err);
-    } finally {
-      setLoading(false);
-    }
-  };
-
+const fetchArtisans = async () => {
+  try {
+    setLoading(true);
+    const response = await api.get("/artisans"); // 👈 using axios instance
+    setArtisans(response.data);
+  } catch (err) {
+    setError("Failed to load artisans. Please try again later.");
+    console.error("Error fetching artisans:", err);
+  } finally {
+    setLoading(false);
+  }
+};
   const filterArtisans = (skill: string, location: string) => {
-    let filtered = artisans;
+    let filtered = artisans.slice();
 
     if (skill && skill !== "All Skills") {
       filtered = filtered.filter((artisan) =>
@@ -75,7 +74,7 @@ const Search = () => {
     const params = new URLSearchParams();
     if (skill && skill !== "All Skills") params.set("skill", skill);
     if (location && location !== "All Locations") params.set("location", location);
-    
+
     setSearchParams(params);
     filterArtisans(skill, location);
   };
@@ -114,7 +113,8 @@ const Search = () => {
           {filteredArtisans.length} artisan{filteredArtisans.length !== 1 ? "s" : ""} found
           {(initialSkill || initialLocation) && (
             <span>
-              {" "}for{" "}
+              {" "}
+              for{" "}
               {[initialSkill, initialLocation].filter(Boolean).join(" in ")}
             </span>
           )}

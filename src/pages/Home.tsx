@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import SearchBar from "@/components/search/SearchBar";
 import { ArrowRight, Users, Shield, Clock } from "lucide-react";
 
+
 const Home = () => {
   const navigate = useNavigate();
 
