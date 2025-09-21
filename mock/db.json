@@ -2,10 +2,10 @@
   "artisans": [
     {
       "id": 1,
-      "name": "Samuel Ochieng",
+      "name": "Alhassan Mohammed Khidir",
       "skill": "Carpenter",
-      "location": "Nairobi, Kenya",
-      "phone": "+254 712 345 678",
+      "location": "Accra, Ghana",
+      "phone": "+233 542 345 678",
       "experience": "8 years",
       "description": "Experienced carpenter specializing in custom furniture, kitchen cabinets, and home renovations. Known for quality craftsmanship and timely delivery.",
       "rating": 4.8,
@@ -14,10 +14,10 @@
     },
     {
       "id": 2,
-      "name": "Grace Wanjiku",
+      "name": "Ibrahim Adnan Jawula",
       "skill": "Tailor",
-      "location": "Kisumu, Kenya",
-      "phone": "+254 723 456 789",
+      "location": "Kumasi, Ghana",
+      "phone": "+233 243 456 789",
       "experience": "12 years",
       "description": "Professional tailor offering custom clothing, alterations, and traditional wear. Specializes in both modern and traditional African designs.",
       "rating": 4.9,
@@ -26,7 +26,7 @@
     },
     {
       "id": 3,
-      "name": "John Mwangi",
+      "name": "Ibrahim Maltiti",
       "skill": "Plumber",
       "location": "Mombasa, Kenya",
       "phone": "+254 734 567 890",
@@ -38,7 +38,7 @@
     },
     {
       "id": 4,
-      "name": "Mary Akinyi",
+      "name": "Saeed Maltiti",
       "skill": "Mason",
       "location": "Eldoret, Kenya",
       "phone": "+254 745 678 901",
