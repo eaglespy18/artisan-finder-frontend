@@ -76,3 +76,5 @@ Deploy frontend to Netlify / Vercel / Render
 
 📜 License
 MIT License © 2025 Artisan Finder Project
+
+Developer: ALHASSAN MOHAMMED KHIDIR
