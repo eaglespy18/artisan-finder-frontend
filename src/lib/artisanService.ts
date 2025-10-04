@@ -14,7 +14,7 @@ export const getArtisans = async (): Promise<Artisan[]> => {
   return res.data;
 };
 
-// Add new artisan (needs token)
+// Add new artisan (token needa)
 export const addArtisan = async (artisan: Artisan, token: string) => {
   const res = await api.post("/artisans", artisan, {
     headers: { Authorization: `Bearer ${token}` },
