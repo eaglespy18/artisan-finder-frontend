@@ -108,6 +108,18 @@
       "rating": 4.8,
       "completedJobs": 156,
       "avatar": "/placeholder.svg"
+    },
+    {
+      "id": 10,
+      "name": "Abdulai Alhassan",
+      "skill": "Mechanic",
+      "location": "Yendi, Ghana",
+      "phone": "+233 556 789 012",
+      "experience": "15 years",
+      "description": "Experienced auto mechanic specializing in car repairs, maintenance, and diagnostics. Works with all vehicle makes and models.",
+      "rating": 4.8,
+      "completedJobs": 217,
+      "avatar": "/placeholder.svg"
     }
 
 
