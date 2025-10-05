@@ -120,6 +120,18 @@
       "rating": 4.8,
       "completedJobs": 217,
       "avatar": "/placeholder.svg"
+    },
+    {
+      "id": 11,
+      "name": "Peter paul",
+      "skill": "Mechanic",
+      "location": "Tamale, Ghana",
+      "phone": "+233 246 789 012",
+      "experience": "15 years",
+      "description": "Experienced auto mechanic specializing in car repairs, maintenance, and diagnostics. Works with all vehicle makes and models.",
+      "rating": 4.8,
+      "completedJobs": 287,
+      "avatar": "/placeholder.svg"
     }
 
 
