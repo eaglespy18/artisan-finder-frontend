@@ -132,6 +132,18 @@
       "rating": 4.8,
       "completedJobs": 287,
       "avatar": "/placeholder.svg"
+    },
+     {
+      "id": 12,
+      "name": " Mohammed Khidir",
+      "skill": "Carpenter",
+      "location": "Yendi, Ghana",
+      "phone": "+233 244 345 678",
+      "experience": "10 years",
+      "description": "Experienced carpenter specializing in custom furniture, kitchen cabinets, and home renovations. Known for quality craftsmanship and timely delivery.",
+      "rating": 8.8,
+      "completedJobs": 1156,
+      "avatar": "/placeholder.svg"
     }
 
 
