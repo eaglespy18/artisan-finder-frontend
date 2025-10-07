@@ -144,6 +144,18 @@
       "rating": 8.8,
       "completedJobs": 1156,
       "avatar": "/placeholder.svg"
+    },
+    {
+      "id": 13,
+      "name": " Mohammed Khidir Alhassan",
+      "skill": "Carpenter",
+      "location": "Bolga, Ghana",
+      "phone": "+233 544 345 678",
+      "experience": "12 years",
+      "description": "Experienced carpenter specializing in custom furniture, kitchen cabinets, and home renovations. Known for quality craftsmanship and timely delivery.",
+      "rating": 9.8,
+      "completedJobs": 16,
+      "avatar": "/placeholder.svg"
     }
 
 
