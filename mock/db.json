@@ -180,6 +180,18 @@
       "rating": 9.5,
       "completedJobs": 300,
       "avatar": "/placeholder.svg"
+    },
+     {
+      "id": 16,
+      "name": "Aaru Alhassan Mohammed Khidir",
+      "skill": "Carpenter",
+      "location": "Tema, Ghana",
+      "phone": "+233 275 345 678",
+      "experience": "10 years",
+      "description": "Experienced carpenter specializing in custom furniture, kitchen cabinets, and home renovations. Known for quality craftsmanship and timely delivery.",
+      "rating": 7.8,
+      "completedJobs": 220,
+      "avatar": "/placeholder.svg"
     }
 
   ]
